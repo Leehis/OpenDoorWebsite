@@ -1,0 +1,81 @@
+.hero {
+  background-color: #b7d3e6;
+  height: 100%;
+}
+
+.heroWrapper {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroText {
+  font-size: 80px;
+  font-weight: 700;
+  padding: 40px 60px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.searchBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 150px;
+  box-shadow: -1px 7px 5px 8px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -1px 7px 5px 8px rgba(65, 25, 25, 0.05);
+  -moz-box-shadow: -1px 7px 5px 8px rgba(0, 0, 0, 0.05);
+
+  /* height: 80px; */
+}
+
+.searchDelivery {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 15px;
+  color: #949da5;
+}
+
+.deliveryTime {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 15px;
+  color: #949da5;
+}
+
+.searchButtonWrapper {
+  padding: 5px;
+}
+
+.icon {
+  margin-right: 5px;
+  color: #2c3fdc;
+}
+
+.searchButton {
+  background-color: #2c3fdc;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: #e6f1f8;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.imageBox {
+  display: flex-end;
+  padding-top: 250px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+}
+
+.deliveryImage {
+  height: 350px;
+}
